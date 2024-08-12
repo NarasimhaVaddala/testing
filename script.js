@@ -1,6 +1,4 @@
-let btn = document.getElementById('btn')
 
-btn.addEventListener('click' , ()=>{
-    let heading = document.getElementById('heading')
-    heading.innerHTML =  "Hello It Works Perfectly"
+document.getElementById('btn').addEventListener('click' , ()=>{
+    document.getElementById('heading').innerText =  "Hello It Works Perfectly"
 })
